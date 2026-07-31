@@ -1,4 +1,24 @@
-# screeps-server-mockup
+# @cool-andre/screeps-server-mockup
+
+> Pre-built fork of [screepers/screeps-server-mockup](https://github.com/screepers/screeps-server-mockup)
+> at commit `703645f`.
+
+## Why this fork
+
+This fork is published as a **pre-built npm package** — the `prepare` script has
+been removed so that downstream consumers (specifically
+[`screeps-integration-tests`](https://github.com/kvi05/screeps-integration-tests))
+do **not** require TypeScript to install.
+
+**Differences from upstream:**
+- `prepare` script removed — no `tsc` at install time
+- `dist/` included in the published package — pre-compiled JavaScript
+- Package name: `@cool-andre/screeps-server-mockup` (scoped)
+- Repository: <https://github.com/kvi05/screeps-server-mockup>
+
+Everything else is identical to upstream at the pinned commit.
+
+---
 
 _Based on https://github.com/screepers/screeps-server-test_
 

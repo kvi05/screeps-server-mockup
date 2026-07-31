@@ -1,7 +1,8 @@
 {
-  "name": "screeps-server-mockup",
+  "name": "@cool-andre/screeps-server-mockup",
+  "description": "Pre-built fork of screeps-server-mockup — no TypeScript required to install. Used by screeps-integration-tests.",
   "license": "MIT",
-  "repository": "https://github.com/screepers/screeps-server-mockup",
+  "repository": "https://github.com/kvi05/screeps-server-mockup",
   "version": "1.5.1",
   "main": "dist/src/main.js",
   "types": "dist/src/main.d.ts",
@@ -9,7 +10,6 @@
     "build": "tsc",
     "coverage": "npm run build && nyc mocha dist/test --ui tdd --exit",
     "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\" \"utils/**/*.ts\"",
-    "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "test": "npm run build && mocha dist/test --ui tdd --exit"
   },
