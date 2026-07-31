@@ -3,7 +3,7 @@
   "description": "Pre-built fork of screeps-server-mockup — no TypeScript required to install. Used by screeps-integration-tests.",
   "license": "MIT",
   "repository": "https://github.com/kvi05/screeps-server-mockup",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "main": "dist/src/main.js",
   "types": "dist/src/main.d.ts",
   "scripts": {
