@@ -1,5 +1,8 @@
 # @cool-andre/screeps-server-mockup
 
+[![npm version](https://img.shields.io/npm/v/@cool-andre/screeps-server-mockup?color=blue)](https://www.npmjs.com/package/@cool-andre/screeps-server-mockup)
+[![node](https://img.shields.io/badge/node-%E2%89%A524-brightgreen.svg)](https://nodejs.org/)
+
 > Pre-built fork of [screepers/screeps-server-mockup](https://github.com/screepers/screeps-server-mockup)
 > at commit `703645f`.
 
@@ -34,7 +37,7 @@ environment.
 
 These are necessary to build the internal [Screeps](https://github.com/screeps/screeps) server.
 
- * Node.js 10 LTS or higher
+ * Node.js 24 LTS or higher
  * Python (for node-gyp)
  * Build tools (`apt install build-essential` for Ubuntu, [Visual Studio](https://www.visualstudio.com/vs/) for Windows, etc)
 
